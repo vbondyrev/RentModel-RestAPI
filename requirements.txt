@@ -1,0 +1,7 @@
+sqlalchemy
+marshmallow
+Flask
+Flask-SQLAlchemy
+Flask-rest-api
+Flask-praetorian
+Gunicorn
