@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-    Test SKEIN RestAPI
+    Test RestAPI
 
     OpenAPI spec version: 1.0.0
     Contact: vbondyrev@gmail.com
