@@ -30,10 +30,11 @@ gunicorn --bind 0.0.0.0:5000 wsgi:app
 * 1.7. Run app.py and check this endpoint:
 			[http://0.0.0.0:5000/api/swagger](http://0.0.0.0:5000/api/swagger) 
 
-* 1.8. Add user Admin (in DB "Role" add admin aslo)
+* 1.8. Add user Admin (in DB "Role" change **user** role to **admin**)
 ```
   Only admin user could add any categories
-  Only registered and authorized users could get info 
+  Only registered and authorized users could get info.
+  For authorizetion need get token key and make all request in Swagger with it
 ```
 
 ### Endpoints
