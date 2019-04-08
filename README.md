@@ -2,7 +2,7 @@
 
 REST API for simulate some model with Category/Product/User Object
 with registrations and authorization functionality
-based on [Gunicorn](https://gunicorn.org/) - WSGI HTTP Server ONLY FOR UNIX sys
+based on [Gunicorn](https://gunicorn.org/) - WSGI HTTP Server **ONLY FOR UNIX sys**
 
 ### Installing
 1. __Run on localhost__
@@ -30,13 +30,14 @@ gunicorn --bind 0.0.0.0:5000 wsgi:app
 * 1.7. Run app.py and check this endpoint:
 			[http://0.0.0.0:5000/api/swagger](http://0.0.0.0:5000/api/swagger) 
 
-* 1.8. Add user Admin
-       In DB "Role" add admin aslo
-       Only Admin user could add any categories
-       Only registered and authorized users could get info 
+* 1.8. Add user Admin (in DB "Role" add admin aslo)
+```
+  Only admin user could add any categories
+  Only registered and authorized users could get info 
+```
 
 ### Endpoints
  All endpoints represented in Swagger:
- ![ScreenShot](https://raw.github.com/{username}/RentModel-RestAPI/screenshot/swagger.png)
+ ![ScreenShot](/screenshot/swagger.png)
 
  _Thanks for attention and have a nice day! :)_
