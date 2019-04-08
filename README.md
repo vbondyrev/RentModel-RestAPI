@@ -23,7 +23,7 @@ source venv/bin/activate
 ```
 pip3 install -r requirements.txt 
 ```
-* 1.6. Run this command in console: 
+* 1.6. Run this command in terminal window: 
 ```
 gunicorn --bind 0.0.0.0:5000 wsgi:app
 ```
