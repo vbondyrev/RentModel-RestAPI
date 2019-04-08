@@ -2,7 +2,7 @@
 
 REST API for simulate some model with Category/Product/User Object
 with registrations and authorization functionality
-based on [Gunicorn](https://gunicorn.org/) - WSGI HTTP Server ONLY FOR UNIX sys
+based on [Gunicorn](https://gunicorn.org/) - WSGI HTTP Server **ONLY FOR UNIX sys**
 
 ### Installing
 1. __Run on localhost__
@@ -32,6 +32,6 @@ gunicorn --bind 0.0.0.0:5000 wsgi:app
 
 ### Endpoints
  All endpoints represented in Swagger:
- ![ScreenShot](https://raw.github.com/vbondyrev/RentModel-RestAPI/screenshot/swagger.png)
+ ![](screenshot/swagger.png)
 
  _Thanks for attention and have a nice day! :)_
